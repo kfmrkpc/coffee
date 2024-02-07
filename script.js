@@ -68,6 +68,7 @@ const generateWord = () => {
 
 //Initial Function
 const init = () => {
+  generateWord();
   winCount = 0;
   lossCount = 5;
   randomWord = "";
@@ -77,7 +78,6 @@ const init = () => {
   userInpSection.innerHTML = "";
   letterContainer.classList.add("hide");
   letterContainer.innerHTML = "";
-  generateWord();
 
   //For creating letter buttons
   for (let i = 65; i < 91; i++) {
