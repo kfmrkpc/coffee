@@ -1,4 +1,4 @@
-<br>//Word and Hints Object
+//Word and Hints Object
 const options = {
   aroma: "Pleasing smell",
   pepper: "Salt's partner",
